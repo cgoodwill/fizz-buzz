@@ -3,8 +3,9 @@ $(document).ready(function() {
 	console.log("start");
 
 	// user number's pick
+	var userVariable = prompt("Pick a number between 1 - 100?");
 
-	for (i = 1; i <= 100; i++) {
+	for (i = 1; i <= userVariable; i++) {
 	  // console.log(i);
 	  if (i % 3 == 0 && i % 5 == 0) {
 	    console.log("fizzbuzz");
