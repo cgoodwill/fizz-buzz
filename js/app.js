@@ -2,6 +2,8 @@ $(document).ready(function() {
 	// alert('test');
 	console.log("start");
 
+	// user number's pick
+
 	for (i = 1; i <= 100; i++) {
 	  // console.log(i);
 	  if (i % 3 == 0 && i % 5 == 0) {
