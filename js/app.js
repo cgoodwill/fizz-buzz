@@ -1,3 +1,13 @@
+$(document).ready(function() {
+
+   console.log("start");
+
+   // user number's pick
+   var userVariable = prompt("Pick a number between 1 - 100?");
+
+   fizzOrBuzz(userVariable)
+});
+
 function fizzOrBuzz(topNumber) {
 
     for (i = 1; i <= topNumber; i++) {
@@ -18,12 +28,3 @@ function fizzOrBuzz(topNumber) {
     }
 }
 
-$(document).ready(function() {
-
-   console.log("start");
-
-   // user number's pick
-   var userVariable = prompt("Pick a number between 1 - 100?");
-
-   fizzOrBuzz(userVariable)
-});
